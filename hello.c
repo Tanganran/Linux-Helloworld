@@ -4,7 +4,8 @@
 static __init int hello_init(void)
 {
 	printk("<0>""hello world\n");
-	return 0;
+	int i =0;
+		return 0;
 }
 
 static __exit void hello_exit(void)
